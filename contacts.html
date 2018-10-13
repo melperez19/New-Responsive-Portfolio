@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/common_style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style3.css">
+    <title>Contact</title>
+
+    
+</head>
+
+<body>
+    <div class="background_image"></div>
+    <div class="navigation">
+        <h1>Melissa Perez</h1>
+        <ul id="nav-direction">
+            <li><a href="index.html">About |</a></li>
+            <li><a href="portfolio.html">Portfolio |</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+        </ul>
+    </div>
+    <section>
+        <h2>Contact</h2>
+        <div id="after_submit"></div>
+        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+            <div class="row">
+                <label class="required" for="name">Name</label><br />
+                <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+                <span id="name_validation" class="error_message"></span>
+            </div>
+            <div class="row">
+                <label class="required" for="email">Email</label><br />
+                <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+                <span id="email_validation" class="error_message"></span>
+            </div>
+            <div class="row">
+                <label class="required" for="message">Message</label><br />
+                <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+                <span id="message_validation" class="error_message"></span>
+            </div>
+            
+            <input id="submit_button" type="submit" value="Send email" />
+        </form>
+    </section>
+    
+    
+    
+    <footer>
+        <small>&copy; 2018 Melissa Perez<br>
+        </small>
+    </footer>
+    
+    
+</body>
+
+</html>
