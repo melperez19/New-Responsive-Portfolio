@@ -34,7 +34,7 @@ section {
 
 .text_overlay {
     display: flex;
-    position: absolute;
+    position: sticky;
     bottom: 30px;
     width: 200px;
     height: 40px;
