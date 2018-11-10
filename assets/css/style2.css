@@ -45,6 +45,10 @@ section {
     align-items: center;
 }
 
+a {
+   color: white;
+}
+
 @media screen and (max-width: 980px) {
     section {
         margin-left: 3%;
